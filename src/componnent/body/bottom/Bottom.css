@@ -1,0 +1,90 @@
+.bottom {
+  background-color: #151826;
+}
+
+.bottom-logo {
+  margin-top: 40px;
+
+  margin-left: 300px;
+  width: 150px;
+  height: 35px;
+}
+.service-a {
+  margin-top: 30px;
+}
+
+.service {
+  margin-left: 200px;
+  display: flex;
+  color: white;
+}
+
+.service p {
+  cursor: pointer;
+  font-size: 10px;
+  margin-left: 3px;
+  margin-top: 5px;
+}
+
+.service-logo {
+  margin-left: 100px;
+  height: 25px;
+  width: 25px;
+}
+
+.service-logo-lor {
+  height: 25px;
+  width: 25px;
+  margin-left: 57px;
+}
+
+.service-logo-maple {
+  height: 25px;
+  width: 25px;
+  margin-left: 117px;
+}
+.service-logo-won {
+  height: 25px;
+  width: 25px;
+  margin-left: 120px;
+}
+
+.row {
+  margin-top: 30px;
+  margin-left: 300px;
+  background-color: gray;
+  width: 1120px;
+  height: 1px;
+}
+.col {
+  margin-left: 5px;
+  background-color: gray;
+  margin-top: 9px;
+  height: 18px;
+  width: 1px;
+}
+
+.info {
+  display: flex;
+  margin-left: 300px;
+  color: white;
+}
+
+.info p {
+  cursor: pointer;
+  background-color: #151826;
+  margin-left: 5px;
+  font-size: 10px;
+}
+
+.leading {
+  color: gray;
+  font-size: 12.5px;
+  margin-left: 300px;
+  width: 1125px;
+}
+
+.t {
+  height: 10px;
+  background-color: #151826;
+}

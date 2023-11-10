@@ -1,0 +1,188 @@
+.theme-riot {
+  height: 940px;
+  width: 1690px;
+  background-image: url("https://lolstatic-a.akamaihd.net/rso-authenticator-ui/0.50.2/assets/riot_desktop_background_2x.jpg");
+}
+.Riotlogo {
+  position: relative;
+  top: 7%;
+  left: 4%;
+  width: 141px;
+  height: 40px;
+  svg {
+    height: 64px;
+    width: 168.67px;
+    fill: rgb(252, 252, 252);
+    padding-right: 32px px;
+  }
+}
+.title {
+  position: absolute;
+  top: 10%;
+  left: 43%;
+}
+.login {
+  position: absolute;
+  overflow: hidden;
+  top: 20%;
+  left: 35%;
+  background-color: white;
+  width: 505px;
+  height: 560px;
+  input {
+    padding-left: 20px;
+    margin-top: 20px;
+    background-color: rgba(200, 200, 200, 0.194);
+    border-radius: px;
+    border: 0px;
+    position: relative;
+    top: 20%;
+    left: 10%;
+    height: 40px;
+    width: 380px;
+  }
+  p {
+    color: rgb(67, 67, 67);
+    position: relative;
+    top: 65px;
+    left: 80px;
+    font-size: 13px;
+  }
+  .ham {
+    cursor: pointer;
+    position: relative;
+    left: 23%;
+    top: 10%;
+    font-size: 10px;
+    .a2 {
+      position: relative;
+      top: 52px;
+      left: 22%;
+    }
+  }
+
+  .submit {
+    cursor: not-allowed;
+    position: relative;
+    background-color: white;
+    border-radius: 30px;
+    border: solid rgb(226, 226, 226) 2px;
+    top: 15%;
+    left: 43%;
+    width: 70px;
+    height: 70px;
+
+    svg {
+      position: relative;
+      top: 10px;
+      left: 8px;
+    }
+  }
+}
+.submit2 {
+  position: relative;
+  border: 0px;
+  background-color: rgb(240, 63, 66);
+  border-radius: 30px;
+  top: 15%;
+  left: 43%;
+  width: 70px;
+  height: 70px;
+  svg {
+    position: relative;
+    top: 10px;
+    left: 8px;
+  }
+}
+
+.linkLogin {
+  position: relative;
+  top: 25%;
+  left: 8%;
+  button {
+    border-radius: 10px;
+    border: 0px;
+    width: 93px;
+    height: 32px;
+    margin-left: 10px;
+  }
+
+  .facebook {
+    background-color: rgb(24, 119, 242);
+  }
+  .google {
+    background-color: white;
+    border: 1px solid rgb(167, 165, 165);
+  }
+  .mac {
+    background-color: black;
+  }
+  .xbox {
+    background-color: green;
+  }
+
+  svg {
+    margin-top: 5px;
+    height: 20px;
+    width: 20px;
+  }
+  .facebook:hover {
+    background-color: rgb(22, 98, 198);
+  }
+  .google:hover {
+    background-color: rgb(237, 237, 237);
+  }
+  .mac:hover {
+    background-color: black;
+  }
+  .xbox:hover {
+    background-color: rgb(2, 98, 2);
+  }
+}
+.submit2:hover {
+  background-color: rgb(154, 35, 37);
+}
+
+input[type="checkbox"] {
+  margin-top: 40px;
+  width: 20px;
+}
+
+.help {
+  margin-left: 80px;
+  color: rgb(194, 194, 194);
+  display: flex;
+  position: relative;
+  top: 85%;
+  p {
+    cursor: pointer;
+    font-size: 10px;
+    margin-left: 10px;
+  }
+  button {
+    margin-left: 10px;
+    border: 0px;
+    height: 30px;
+    width: 60px;
+    color: rgb(142, 142, 142);
+    border-radius: 6px;
+    background-color: rgb(65, 65, 65);
+  }
+  svg {
+    position: relative;
+    top: 3px;
+    margin-left: 5px;
+  }
+  .help-p {
+    display: flex;
+    position: relative;
+    top: 50px;
+    right: 325px;
+    p {
+      margin-right: 10px;
+      position: relative;
+      top: -10px;
+      text-decoration: underline;
+    }
+  }
+}

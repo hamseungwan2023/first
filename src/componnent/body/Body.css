@@ -1,0 +1,68 @@
+.body {
+  height: 50vh;
+  background-image: url("https://cdn.dak.gg/valorant/images/bg/bg-index-pc.jpg");
+}
+
+.body img {
+  margin-left: 730px;
+  margin-top: 85px;
+}
+.body p {
+  color: rgba(255, 255, 255, 0.171);
+  margin-left: 708px;
+  font-size: 7px;
+}
+.mainSearch {
+  border-radius: 5px;
+  background-color: black;
+  display: flex;
+  width: 490px;
+  border: 1px solid #ff4655;
+  margin-left: 540px;
+  margin-top: 30px;
+}
+.mainSearch input {
+  padding-left: 10px;
+  text-align: left 1px;
+  border-radius: 5px;
+  outline: none;
+  border: 0px;
+  color: white;
+  background-color: black;
+  width: 500px;
+  height: 40px;
+}
+
+.mainSearch button {
+  cursor: pointer;
+  border-radius: 5px;
+  border: 0px;
+  background-color: black;
+  padding-top: 7px;
+  padding-bottom: 5px;
+  padding-right: 20px;
+  height: 48px;
+}
+
+.login-button {
+  cursor: pointer;
+  color: white;
+  border-radius: 5px;
+  border: 0px;
+  background-color: #ff4655;
+  position: relative;
+  bottom: 48px;
+  left: 1040px;
+  width: 150px;
+  height: 47px;
+  font-size: 15px;
+}
+.login-button:hover {
+  background-color: #bf323e;
+}
+
+.login-button svg {
+  position: relative;
+  top: 3px;
+  right: 5px;
+}

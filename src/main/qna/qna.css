@@ -1,0 +1,170 @@
+.qna {
+  position: fixed;
+  left: 50px;
+  bottom: 50px;
+  height: 65px;
+  width: 65px;
+  border-radius: 100%;
+  border: solid 0px;
+  background-color: #ff4655;
+}
+.qna:hover {
+  background-color: #be3642;
+}
+
+.qnaX {
+  position: absolute;
+  left: 50px;
+  /* bottom: 50px; */
+}
+
+.qnaButton {
+  position: fixed;
+  color: white;
+  bottom: 50px;
+  height: 65px;
+  width: 65px;
+  border-radius: 100%;
+  border: solid 0px;
+  background-color: #ff4655;
+}
+.qnaX {
+  overflow: hidden;
+  position: fixed;
+  bottom: 130px;
+  left: 50px;
+  border-radius: 4px;
+  background-color: #f7f8f9;
+  opacity: 1;
+  color: white;
+  height: 650px;
+  width: 345px;
+}
+.qnaX .qnaTop {
+  position: relative;
+  top: -16px;
+  height: 130px;
+
+  text-align: center;
+
+  background-color: #ff4655;
+}
+
+.p1 {
+  position: relative;
+  top: 15px;
+  font-size: 13px;
+}
+.p2 {
+  position: relative;
+  top: 20px;
+  font-size: 15px;
+}
+
+.p3 {
+  position: relative;
+  top: 5px;
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.813);
+  /* top: px; */
+}
+
+.qnaBody {
+  position: relative;
+  top: -14px;
+  font-size: 13px;
+  margin-left: 20px;
+  color: rgba(0, 0, 0, 0.858);
+}
+.qnaBody input {
+  position: relative;
+  top: -10px;
+}
+
+.qnaInput {
+  width: 300px;
+  height: 35px;
+}
+
+.qnaMainInput {
+  padding-bottom: 60px;
+  padding-left: 10px;
+  height: 20px;
+  width: 290px;
+}
+
+.qnaButton:hover {
+  background-color: rgba(233, 7, 75, 0.961);
+}
+
+.a {
+  position: relative;
+  top: -65px;
+  left: 245px;
+}
+.a img {
+  cursor: pointer;
+  height: 20px;
+}
+.a button {
+  position: relative;
+  top: 3.5px;
+  border: 0px;
+  background-color: #fff;
+}
+.a label {
+  display: inline-block;
+  padding: 0.5em 0.75em;
+  color: #fff;
+  font-size: inherit;
+  line-height: normal;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.a input[type="file"] {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+.b {
+  position: absolute;
+  top: 10px;
+  left: -200px;
+  text-align: center;
+  border-radius: 30px;
+  height: 20px;
+  width: 60px;
+  background-color: rgb(202, 202, 202);
+  color: rgb(255, 255, 255);
+}
+
+.imoge {
+  position: relative;
+  top: -70px;
+  right: 100px;
+}
+
+.submit {
+  border-radius: 4px;
+  position: relative;
+  left: 20px;
+  top: -40px;
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+  background-color: #ff4655;
+  border: 0px;
+  width: 305px;
+  height: 50px;
+}
+
+.submit:hover {
+  background-color: #be3642;
+}
